@@ -1,0 +1,16 @@
+Port 22
+Ciphers aes256-ctr,aes192-ctr,aes128-ctr
+LoginGraceTime 30
+PermitRootLogin no
+MaxAuthTries 3
+PubkeyAuthentication yes
+AuthorizedKeysFile	.ssh/authorized_keys
+PasswordAuthentication no
+PermitEmptyPasswords no
+KbdInteractiveAuthentication no
+AllowAgentForwarding no
+AllowTcpForwarding no
+X11Forwarding no
+ClientAliveInterval 300
+ClientAliveCountMax 0
+Subsystem	sftp	internal-sftp
