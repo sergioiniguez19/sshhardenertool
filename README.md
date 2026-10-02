@@ -70,7 +70,7 @@ chmod +x main.sh
 sudo ./main.sh
 ```
 
-Set a custom SSH port (accepted range: `1`-`65534`):
+Set a custom SSH port:
 
 ```bash
 sudo ./main.sh -p 2222
